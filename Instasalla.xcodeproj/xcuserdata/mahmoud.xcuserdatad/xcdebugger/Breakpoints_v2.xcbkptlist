@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Instasalla/CustomNavBar.swift"
+            timestampString = "534610327.047578"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instasalla.CustomNavBar.__deallocating_deinit"
+                  moduleName = "Instasalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoud/Desktop/ios/practise/Instasalla/Instasalla/CustomNavBar.swift"
+                  timestampString = "534617413.261996"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instasalla.CustomNavBar.init (navigationBarClass : Swift.Optional&lt;Swift.AnyObject.Type&gt;, toolbarClass : Swift.Optional&lt;Swift.AnyObject.Type&gt;) -&gt; Instasalla.CustomNavBar"
+                  moduleName = "Instasalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoud/Desktop/ios/practise/Instasalla/Instasalla/CustomNavBar.swift"
+                  timestampString = "534617413.265506"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instasalla.CustomNavBar.__allocating_init (navigationBarClass : Swift.Optional&lt;Swift.AnyObject.Type&gt;, toolbarClass : Swift.Optional&lt;Swift.AnyObject.Type&gt;) -&gt; Instasalla.CustomNavBar"
+                  moduleName = "Instasalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoud/Desktop/ios/practise/Instasalla/Instasalla/CustomNavBar.swift"
+                  timestampString = "534617413.269028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instasalla.CustomNavBar.init (rootViewController : __ObjC.UIViewController) -&gt; Instasalla.CustomNavBar"
+                  moduleName = "Instasalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoud/Desktop/ios/practise/Instasalla/Instasalla/CustomNavBar.swift"
+                  timestampString = "534617413.272506"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instasalla.CustomNavBar.__allocating_init (rootViewController : __ObjC.UIViewController) -&gt; Instasalla.CustomNavBar"
+                  moduleName = "Instasalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoud/Desktop/ios/practise/Instasalla/Instasalla/CustomNavBar.swift"
+                  timestampString = "534617413.274685"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instasalla.CustomNavBar.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Instasalla.CustomNavBar"
+                  moduleName = "Instasalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoud/Desktop/ios/practise/Instasalla/Instasalla/CustomNavBar.swift"
+                  timestampString = "534617413.276562"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instasalla.CustomNavBar.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Instasalla.CustomNavBar"
+                  moduleName = "Instasalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoud/Desktop/ios/practise/Instasalla/Instasalla/CustomNavBar.swift"
+                  timestampString = "534617413.278371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instasalla.CustomNavBar.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Instasalla.CustomNavBar&gt;"
+                  moduleName = "Instasalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoud/Desktop/ios/practise/Instasalla/Instasalla/CustomNavBar.swift"
+                  timestampString = "534617413.280156"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Instasalla.CustomNavBar.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Instasalla.CustomNavBar&gt;"
+                  moduleName = "Instasalla"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoud/Desktop/ios/practise/Instasalla/Instasalla/CustomNavBar.swift"
+                  timestampString = "534617413.281991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
