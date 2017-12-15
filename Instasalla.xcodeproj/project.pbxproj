@@ -14,10 +14,13 @@
 		1E6AD5D91FD80CE400394ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6AD5D71FD80CE400394ACA /* Main.storyboard */; };
 		1E6AD5DB1FD80CE400394ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6AD5DA1FD80CE400394ACA /* Assets.xcassets */; };
 		1E6AD5DE1FD80CE400394ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6AD5DC1FD80CE400394ACA /* LaunchScreen.storyboard */; };
+		1E8BA9921FE2C583001B38AB /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8BA9911FE2C583001B38AB /* UIBarButtonItem+Badge.m */; };
 		1EFE5AAF1FD8493300BE5699 /* tabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */; };
+		296294D31235BFD2019C7C20 /* Pods_Instasalla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6022731D6514C616EA931731 /* Pods_Instasalla.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1824E37549322352040B7698 /* Pods-Instasalla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instasalla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instasalla/Pods-Instasalla.release.xcconfig"; sourceTree = "<group>"; };
 		1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
 		1E60FA491FD96C4B00AD486D /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
 		1E6AD5D01FD80CE400394ACA /* Instasalla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instasalla.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +30,12 @@
 		1E6AD5DA1FD80CE400394ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E6AD5DD1FD80CE400394ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E6AD5DF1FD80CE400394ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8BA98F1FE2C581001B38AB /* Instasalla-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instasalla-Bridging-Header.h"; sourceTree = "<group>"; };
+		1E8BA9901FE2C583001B38AB /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		1E8BA9911FE2C583001B38AB /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
 		1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarVC.swift; sourceTree = "<group>"; };
+		6022731D6514C616EA931731 /* Pods_Instasalla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instasalla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81134AB06E9D8A7DC58133CD /* Pods-Instasalla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instasalla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instasalla/Pods-Instasalla.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296294D31235BFD2019C7C20 /* Pods_Instasalla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,8 @@
 			children = (
 				1E6AD5D21FD80CE400394ACA /* Instasalla */,
 				1E6AD5D11FD80CE400394ACA /* Products */,
+				9FDC2DD05D23520D2D8F6214 /* Pods */,
+				D594E1794E0829ACBAB87A6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,9 +79,29 @@
 				1E6AD5DF1FD80CE400394ACA /* Info.plist */,
 				1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */,
 				1E60FA491FD96C4B00AD486D /* ProductsCell.swift */,
+				1E8BA9901FE2C583001B38AB /* UIBarButtonItem+Badge.h */,
+				1E8BA9911FE2C583001B38AB /* UIBarButtonItem+Badge.m */,
 				1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */,
+				1E8BA98F1FE2C581001B38AB /* Instasalla-Bridging-Header.h */,
 			);
 			path = Instasalla;
+			sourceTree = "<group>";
+		};
+		9FDC2DD05D23520D2D8F6214 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81134AB06E9D8A7DC58133CD /* Pods-Instasalla.debug.xcconfig */,
+				1824E37549322352040B7698 /* Pods-Instasalla.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D594E1794E0829ACBAB87A6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6022731D6514C616EA931731 /* Pods_Instasalla.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E6AD5E21FD80CE400394ACA /* Build configuration list for PBXNativeTarget "Instasalla" */;
 			buildPhases = (
+				63F76F0D71BFF1419E8E854B /* [CP] Check Pods Manifest.lock */,
 				1E6AD5CC1FD80CE400394ACA /* Sources */,
 				1E6AD5CD1FD80CE400394ACA /* Frameworks */,
 				1E6AD5CE1FD80CE400394ACA /* Resources */,
+				FD53C8BFC53C72EF69A4DEF7 /* [CP] Embed Pods Frameworks */,
+				6F0A76C13262BB25F1092104 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -104,6 +138,7 @@
 				TargetAttributes = {
 					1E6AD5CF1FD80CE400394ACA = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,11 +174,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63F76F0D71BFF1419E8E854B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F0A76C13262BB25F1092104 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instasalla/Pods-Instasalla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD53C8BFC53C72EF69A4DEF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instasalla/Pods-Instasalla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E6AD5CC1FD80CE400394ACA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8BA9921FE2C583001B38AB /* UIBarButtonItem+Badge.m in Sources */,
 				1EFE5AAF1FD8493300BE5699 /* tabBarVC.swift in Sources */,
 				1E60FA4A1FD96C4B00AD486D /* ProductsCell.swift in Sources */,
 				1E6AD5D61FD80CE400394ACA /* HomeVC.swift in Sources */,
@@ -283,8 +367,10 @@
 		};
 		1E6AD5E31FD80CE400394ACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81134AB06E9D8A7DC58133CD /* Pods-Instasalla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNS98PVAR5;
@@ -294,6 +380,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mh.Instasalla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instasalla/Instasalla-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,8 +389,10 @@
 		};
 		1E6AD5E41FD80CE400394ACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1824E37549322352040B7698 /* Pods-Instasalla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNS98PVAR5;
@@ -312,6 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mh.Instasalla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instasalla/Instasalla-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

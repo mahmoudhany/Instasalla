@@ -121,9 +121,21 @@
                                 <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <color key="sectionIndexBackgroundColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="gUd-eB-EUl">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0O0-m9-3IW">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.87993321820000003" alpha="0.66700556506849318" colorSpace="calibratedWhite"/>
+                                </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="130" id="NBq-rT-rsU" customClass="ProductsCell" customModule="Instasalla" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="130"/>
+                                        <rect key="frame" x="0.0" y="178" width="320" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NBq-rT-rsU" id="xr8-pp-blq">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
@@ -136,18 +148,18 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="304" height="114"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="2Sz-cB-l7p">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="304" height="81"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="304" height="87"/>
                                                                 </imageView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Zsl-WR-eWJ" userLabel="text Stack View">
-                                                                    <rect key="frame" x="0.0" y="89" width="304" height="25"/>
+                                                                    <rect key="frame" x="0.0" y="95" width="304" height="19"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0J-Hg-n7q">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="25"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="19"/>
                                                                             <attributedString key="attributedText">
                                                                                 <fragment content="Frozen">
                                                                                     <attributes>
                                                                                         <color key="NSColor" red="0.087751061597032415" green="0.12087563451776651" blue="0.054626488676298317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                                        <font key="NSFont" size="17" name="DinNextRegular"/>
+                                                                                        <font key="NSFont" size="16" name="DinNextRegular"/>
                                                                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingHead" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                                     </attributes>
                                                                                 </fragment>
@@ -156,12 +168,12 @@
                                                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCP-0z-zOv">
-                                                                            <rect key="frame" x="154" y="0.0" width="150" height="25"/>
+                                                                            <rect key="frame" x="154" y="0.0" width="150" height="19"/>
                                                                             <attributedString key="attributedText">
                                                                                 <fragment content="123 Products">
                                                                                     <attributes>
                                                                                         <color key="NSColor" red="0.61309570069999997" green="0.85909307000000001" blue="0.35875207190000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                                        <font key="NSFont" size="17" name="DinNextRegular"/>
+                                                                                        <font key="NSFont" size="16" name="DinNextRegular"/>
                                                                                         <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                                     </attributes>
                                                                                 </fragment>
@@ -174,7 +186,7 @@
                                                             </subviews>
                                                         </stackView>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="0.87993321820000003" alpha="0.5" colorSpace="calibratedWhite"/>
+                                                    <color key="backgroundColor" white="0.87993321820000003" alpha="0.66762093321917804" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="bottom" secondItem="WqB-bc-8hy" secondAttribute="bottom" constant="8" id="R0P-kT-MGU"/>
                                                         <constraint firstItem="WqB-bc-8hy" firstAttribute="leading" secondItem="u03-UJ-GDv" secondAttribute="leading" id="aQI-bF-eoF"/>
@@ -230,9 +242,6 @@
                         <barButtonItem key="leftBarButtonItem" image="search" id="KYk-3L-E5g">
                             <color key="tintColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="shopping-cart" style="plain" id="kR8-nF-l7d">
-                            <color key="tintColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </barButtonItem>
                     </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="fz6-LE-VAN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -263,6 +272,5 @@
         <image name="food" width="1920" height="1080"/>
         <image name="home" width="25" height="25"/>
         <image name="search" width="25" height="25"/>
-        <image name="shopping-cart" width="25" height="25"/>
     </resources>
 </document>
