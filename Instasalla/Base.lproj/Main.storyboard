@@ -115,119 +115,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="130" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tt1-YT-TVQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <color key="sectionIndexBackgroundColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <view key="tableHeaderView" contentMode="scaleToFill" id="gUd-eB-EUl">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <subviews>
-                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0O0-m9-3IW">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </view>
-                                    </subviews>
-                                    <color key="backgroundColor" white="0.87993321820000003" alpha="0.66700556506849318" colorSpace="calibratedWhite"/>
-                                </view>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="130" id="NBq-rT-rsU" customClass="ProductsCell" customModule="Instasalla" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="178" width="320" height="130"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NBq-rT-rsU" id="xr8-pp-blq">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="u03-UJ-GDv">
-                                                    <rect key="frame" x="8" y="0.0" width="304" height="122"/>
-                                                    <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WqB-bc-8hy">
-                                                            <rect key="frame" x="0.0" y="0.0" width="304" height="114"/>
-                                                            <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="2Sz-cB-l7p">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="304" height="87"/>
-                                                                </imageView>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Zsl-WR-eWJ" userLabel="text Stack View">
-                                                                    <rect key="frame" x="0.0" y="95" width="304" height="19"/>
-                                                                    <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0J-Hg-n7q">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="19"/>
-                                                                            <attributedString key="attributedText">
-                                                                                <fragment content="Frozen">
-                                                                                    <attributes>
-                                                                                        <color key="NSColor" red="0.087751061597032415" green="0.12087563451776651" blue="0.054626488676298317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                                        <font key="NSFont" size="16" name="DinNextRegular"/>
-                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingHead" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                                    </attributes>
-                                                                                </fragment>
-                                                                            </attributedString>
-                                                                            <nil key="highlightedColor"/>
-                                                                            <size key="shadowOffset" width="0.0" height="0.0"/>
-                                                                        </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCP-0z-zOv">
-                                                                            <rect key="frame" x="154" y="0.0" width="150" height="19"/>
-                                                                            <attributedString key="attributedText">
-                                                                                <fragment content="123 Products">
-                                                                                    <attributes>
-                                                                                        <color key="NSColor" red="0.61309570069999997" green="0.85909307000000001" blue="0.35875207190000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                                        <font key="NSFont" size="16" name="DinNextRegular"/>
-                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                                    </attributes>
-                                                                                </fragment>
-                                                                            </attributedString>
-                                                                            <nil key="highlightedColor"/>
-                                                                            <size key="shadowOffset" width="0.0" height="0.0"/>
-                                                                        </label>
-                                                                    </subviews>
-                                                                </stackView>
-                                                            </subviews>
-                                                        </stackView>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="0.87993321820000003" alpha="0.66762093321917804" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="WqB-bc-8hy" secondAttribute="bottom" constant="8" id="R0P-kT-MGU"/>
-                                                        <constraint firstItem="WqB-bc-8hy" firstAttribute="leading" secondItem="u03-UJ-GDv" secondAttribute="leading" id="aQI-bF-eoF"/>
-                                                        <constraint firstAttribute="trailing" secondItem="WqB-bc-8hy" secondAttribute="trailing" id="qnx-JW-m0B"/>
-                                                        <constraint firstItem="WqB-bc-8hy" firstAttribute="top" secondItem="u03-UJ-GDv" secondAttribute="top" id="x3B-mP-HhA"/>
-                                                    </constraints>
-                                                </view>
-                                            </subviews>
-                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <constraints>
-                                                <constraint firstItem="u03-UJ-GDv" firstAttribute="leading" secondItem="xr8-pp-blq" secondAttribute="leading" constant="8" id="2tg-mf-suP"/>
-                                                <constraint firstItem="u03-UJ-GDv" firstAttribute="top" secondItem="xr8-pp-blq" secondAttribute="top" id="XdF-TX-min"/>
-                                                <constraint firstAttribute="trailing" secondItem="u03-UJ-GDv" secondAttribute="trailing" constant="8" id="oHx-Vs-qA9"/>
-                                                <constraint firstAttribute="bottom" secondItem="u03-UJ-GDv" secondAttribute="bottom" constant="8" id="z82-6s-Hl6"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <connections>
-                                            <outlet property="productImage" destination="2Sz-cB-l7p" id="7lG-Vc-hgy"/>
-                                            <outlet property="productType" destination="y0J-Hg-n7q" id="riz-36-qqw"/>
-                                            <outlet property="productsCount" destination="VCP-0z-zOv" id="eef-li-MZ3"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="Elr-JK-Ija" id="QkP-ES-BJX"/>
-                                    <outlet property="delegate" destination="Elr-JK-Ija" id="saC-Us-UFO"/>
-                                </connections>
-                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RPy-d8-boL" userLabel="collectionView" customClass="UICollectionView">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                                <color key="backgroundColor" white="0.87993321820000003" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Tt1-YT-TVQ" firstAttribute="leading" secondItem="IPI-JA-0Tg" secondAttribute="leading" id="4Pn-EP-6Nu"/>
-                            <constraint firstItem="Tt1-YT-TVQ" firstAttribute="bottom" secondItem="IPI-JA-0Tg" secondAttribute="bottom" id="OPc-fd-ICV"/>
-                            <constraint firstItem="Tt1-YT-TVQ" firstAttribute="top" secondItem="IPI-JA-0Tg" secondAttribute="top" id="QTj-dZ-WRE"/>
-                            <constraint firstItem="Tt1-YT-TVQ" firstAttribute="trailing" secondItem="IPI-JA-0Tg" secondAttribute="trailing" id="cmR-uF-U0D"/>
+                            <constraint firstItem="LDa-qw-zvG" firstAttribute="top" secondItem="RPy-d8-boL" secondAttribute="bottom" id="768-ir-11g"/>
+                            <constraint firstAttribute="trailing" secondItem="RPy-d8-boL" secondAttribute="trailing" id="YKV-2V-P2H"/>
+                            <constraint firstItem="RPy-d8-boL" firstAttribute="leading" secondItem="IPI-JA-0Tg" secondAttribute="leading" id="bdB-7i-R9k"/>
+                            <constraint firstItem="RPy-d8-boL" firstAttribute="top" secondItem="0U5-BB-ZbX" secondAttribute="bottom" id="pKE-kW-vzA"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="gMD-mO-J8J"/>
                     <connections>
-                        <outlet property="tableView" destination="Tt1-YT-TVQ" id="LnI-T5-aqV"/>
+                        <outlet property="collectionView" destination="RPy-d8-boL" id="iF6-CW-7G9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KPR-sn-8ID" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -269,7 +172,6 @@
         <image name="Settings" width="25" height="25"/>
         <image name="account" width="25" height="25"/>
         <image name="discount" width="25" height="25"/>
-        <image name="food" width="1920" height="1080"/>
         <image name="home" width="25" height="25"/>
         <image name="search" width="25" height="25"/>
     </resources>

@@ -73,18 +73,26 @@
 			children = (
 				1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */,
 				1E6AD5D51FD80CE400394ACA /* HomeVC.swift */,
+				1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */,
+				1E60FA491FD96C4B00AD486D /* ProductsCell.swift */,
+				1E73499B1FE41DB40021E96E /* Resourses */,
+				1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */,
 				1E6AD5D71FD80CE400394ACA /* Main.storyboard */,
 				1E6AD5DA1FD80CE400394ACA /* Assets.xcassets */,
 				1E6AD5DC1FD80CE400394ACA /* LaunchScreen.storyboard */,
 				1E6AD5DF1FD80CE400394ACA /* Info.plist */,
-				1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */,
-				1E60FA491FD96C4B00AD486D /* ProductsCell.swift */,
-				1E8BA9901FE2C583001B38AB /* UIBarButtonItem+Badge.h */,
-				1E8BA9911FE2C583001B38AB /* UIBarButtonItem+Badge.m */,
-				1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */,
-				1E8BA98F1FE2C581001B38AB /* Instasalla-Bridging-Header.h */,
 			);
 			path = Instasalla;
+			sourceTree = "<group>";
+		};
+		1E73499B1FE41DB40021E96E /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				1E8BA9901FE2C583001B38AB /* UIBarButtonItem+Badge.h */,
+				1E8BA9911FE2C583001B38AB /* UIBarButtonItem+Badge.m */,
+				1E8BA98F1FE2C581001B38AB /* Instasalla-Bridging-Header.h */,
+			);
+			name = Resourses;
 			sourceTree = "<group>";
 		};
 		9FDC2DD05D23520D2D8F6214 /* Pods */ = {
