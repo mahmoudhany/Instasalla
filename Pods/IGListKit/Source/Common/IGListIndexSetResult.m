@@ -35,11 +35,7 @@
 }
 
 - (BOOL)hasChanges {
-    return self.changeCount > 0;
-}
-
-- (NSInteger)changeCount {
-    return self.inserts.count + self.deletes.count + self.updates.count + self.moves.count;
+    return self.inserts.count || self.deletes.count || self.updates.count || self.moves.count;
 }
 
 - (IGListIndexSetResult *)resultForBatchUpdates {
@@ -51,7 +47,7 @@
     NSMutableArray<IGListMoveIndex *> *filteredMoves = [moves mutableCopy];
 
     // convert all update+move to delete+insert
-    const NSInteger moveCount = moves.count;
+    const NSUInteger moveCount = moves.count;
     for (NSInteger i = moveCount - 1; i >= 0; i--) {
         IGListMoveIndex *move = moves[i];
         if ([filteredUpdates containsIndex:move.from]) {

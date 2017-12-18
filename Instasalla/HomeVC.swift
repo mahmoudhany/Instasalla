@@ -8,9 +8,9 @@
 import UIKit
 import IGListKit
 
-class HomeVC: UIViewController{
+class HomeVC: UIViewController {
      
-     @IBOutlet weak var collectionView: UICollectionView!
+     @IBOutlet weak var collectionView: IGListCollectionView!
      
  
      override func viewDidLoad() {
@@ -24,34 +24,35 @@ class HomeVC: UIViewController{
      
 }
 
-class CategorySection: IGListItemController, IGListItemType{
-     func numberOfItems()-> UInt{
-          
+class CategorySection: IGListSectionController{
+     
+     
+
+
+}
+extension CategorySection: ListSectionType {
+      func numberOfItems() -> Int {
           return 1
+     }
+     
+      func sizeForItem(at index: Int) -> CGSize {
+          return CGSize(width: 375, height: 80)
+     }
+     
+      func cellForItem(at index: Int) -> UICollectionViewCell {
+          let cell = IGListCollectionContext!.dequeueReusableCell(withNibName: .reuseIdentifier, bundle: Bundle.main, for: self, at: index)
           
-     }
-     
-     
-     func sizeForItemAtIndex(index: Int) -> CGSize {
-          return CGSize(width: ListCollectionContext.containerSize.width, height: 55)
-     }
-     
-     
-     var item: String?
-     
-     func didUpdateToItem(item: AnyObject) {
-          self.item = item as? String
-     }
-     
-
-
+          if let cell = cell as? Charactable, let character = self.character{
+               cell.setup(character: character)
+          }
+          
+          return cell
 }
 
 
 
 
-
-
+}
 
 
 

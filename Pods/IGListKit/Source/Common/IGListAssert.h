@@ -11,10 +11,6 @@
 #define IGAssert( condition, ... ) NSCAssert( (condition) , ##__VA_ARGS__)
 #endif // IGAssert
 
-#ifndef IGFailAssert
-#define IGFailAssert( ... ) IGAssert( (NO) , ##__VA_ARGS__)
-#endif // IGFailAssert
-
 #ifndef IGParameterAssert
 #define IGParameterAssert( condition ) IGAssert( (condition) , @"Invalid parameter not satisfying: %@", @#condition)
 #endif // IGParameterAssert

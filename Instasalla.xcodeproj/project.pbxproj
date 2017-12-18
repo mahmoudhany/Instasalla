@@ -71,6 +71,7 @@
 		1E6AD5D21FD80CE400394ACA /* Instasalla */ = {
 			isa = PBXGroup;
 			children = (
+				1E7A8E311FE868BF005EBC33 /* Views */,
 				1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */,
 				1E6AD5D51FD80CE400394ACA /* HomeVC.swift */,
 				1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */,
@@ -93,6 +94,13 @@
 				1E8BA98F1FE2C581001B38AB /* Instasalla-Bridging-Header.h */,
 			);
 			name = Resourses;
+			sourceTree = "<group>";
+		};
+		1E7A8E311FE868BF005EBC33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		9FDC2DD05D23520D2D8F6214 /* Pods */ = {

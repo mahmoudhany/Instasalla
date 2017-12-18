@@ -6,6 +6,6 @@ target 'Instasalla' do
   use_frameworks!
 
   # Pods for Instasalla
-pod 'IGListKit', '~> 3.0'
+pod 'IGListKit', '~> 2.0’
 
 end

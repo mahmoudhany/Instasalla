@@ -12,7 +12,6 @@
 /**
  The `IGListDiffable` protocol provides methods needed to compare the identity and equality of two objects.
  */
-NS_SWIFT_NAME(ListDiffable)
 @protocol IGListDiffable
 
 /**

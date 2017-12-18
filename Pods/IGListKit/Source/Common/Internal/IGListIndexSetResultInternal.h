@@ -22,8 +22,6 @@ NS_ASSUME_NONNULL_BEGIN
                     oldIndexMap:(NSMapTable<id<NSObject>, NSNumber *> *)oldIndexMap
                     newIndexMap:(NSMapTable<id<NSObject>, NSNumber *> *)newIndexMap;
 
-@property (nonatomic, assign, readonly) NSInteger changeCount;
-
 @end
 
 NS_ASSUME_NONNULL_END

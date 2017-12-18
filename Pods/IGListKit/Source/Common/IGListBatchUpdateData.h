@@ -11,7 +11,6 @@
 
 #import <IGListKit/IGListMacros.h>
 #import <IGListKit/IGListMoveIndex.h>
-#import <IGListKit/IGListMoveIndexPath.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,7 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
  update via `-[UICollectionView performBatchUpdates:completion:]`.
  */
 IGLK_SUBCLASSING_RESTRICTED
-NS_SWIFT_NAME(ListBatchUpdateData)
 @interface IGListBatchUpdateData : NSObject
 
 /**
@@ -35,43 +33,43 @@ NS_SWIFT_NAME(ListBatchUpdateData)
 @property (nonatomic, strong, readonly) NSIndexSet *deleteSections;
 
 /**
- Section moves.
+ section moves.
  */
 @property (nonatomic, strong, readonly) NSSet<IGListMoveIndex *> *moveSections;
 
 /**
  Item insert index paths.
  */
-@property (nonatomic, strong, readonly) NSArray<NSIndexPath *> *insertIndexPaths;
+@property (nonatomic, strong, readonly) NSSet<NSIndexPath *> *insertIndexPaths;
 
 /**
  Item delete index paths.
  */
-@property (nonatomic, strong, readonly) NSArray<NSIndexPath *> *deleteIndexPaths;
+@property (nonatomic, strong, readonly) NSSet<NSIndexPath *> *deleteIndexPaths;
 
 /**
- Item moves.
+ Item reload index paths.
  */
-@property (nonatomic, strong, readonly) NSArray<IGListMoveIndexPath *> *moveIndexPaths;
+@property (nonatomic, strong, readonly) NSSet<NSIndexPath *> *reloadIndexPaths;
 
 /**
  Creates a new batch update object with section and item operations.
 
- @param insertSections Section indexes to insert.
- @param deleteSections Section indexes to delete.
- @param moveSections Section moves.
+ @param insertSections   Section indexes to insert.
+ @param deleteSections   Section indexes to delete.
+ @param moveSections     Section moves.
  @param insertIndexPaths Item index paths to insert.
  @param deleteIndexPaths Item index paths to delete.
- @param moveIndexPaths Item index paths to move.
+ @param reloadIndexPaths Item index paths to reload.
 
  @return A new batch update object.
  */
 - (instancetype)initWithInsertSections:(NSIndexSet *)insertSections
                         deleteSections:(NSIndexSet *)deleteSections
                           moveSections:(NSSet<IGListMoveIndex *> *)moveSections
-                      insertIndexPaths:(NSArray<NSIndexPath *> *)insertIndexPaths
-                      deleteIndexPaths:(NSArray<NSIndexPath *> *)deleteIndexPaths
-                        moveIndexPaths:(NSArray<IGListMoveIndexPath *> *)moveIndexPaths NS_DESIGNATED_INITIALIZER;
+                      insertIndexPaths:(NSSet<NSIndexPath *> *)insertIndexPaths
+                      deleteIndexPaths:(NSSet<NSIndexPath *> *)deleteIndexPaths
+                      reloadIndexPaths:(NSSet<NSIndexPath *> *)reloadIndexPaths NS_DESIGNATED_INITIALIZER;
 
 /**
  :nodoc:
