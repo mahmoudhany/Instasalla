@@ -1,16 +1,16 @@
 PODS:
-  - IGListKit (2.1.0):
-    - IGListKit/Default (= 2.1.0)
-  - IGListKit/Default (2.1.0):
+  - IGListKit (3.1.1):
+    - IGListKit/Default (= 3.1.1)
+  - IGListKit/Default (3.1.1):
     - IGListKit/Diffing
-  - IGListKit/Diffing (2.1.0)
+  - IGListKit/Diffing (3.1.1)
 
 DEPENDENCIES:
-  - IGListKit (~> 2.0)
+  - IGListKit (~> 3.0)
 
 SPEC CHECKSUMS:
-  IGListKit: b826c68ef7a4ae1626c09d4d3e1ea7a169e6c36e
+  IGListKit: cb97f405ae43e59fe1da74271e19427ec20d3c07
 
-PODFILE CHECKSUM: 8206df199a4edb68d7a1affed5e821cc162642b4
+PODFILE CHECKSUM: 50cfd83918b8b46158b0efb4b857e965c59c2ae5
 
 COCOAPODS: 1.1.1

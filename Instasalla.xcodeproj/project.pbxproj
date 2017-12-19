@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1E5C70B21FDD77A2000264DC /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */; };
-		1E60FA4A1FD96C4B00AD486D /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60FA491FD96C4B00AD486D /* ProductsCell.swift */; };
 		1E6AD5D41FD80CE400394ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */; };
 		1E6AD5D61FD80CE400394ACA /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AD5D51FD80CE400394ACA /* HomeVC.swift */; };
 		1E6AD5D91FD80CE400394ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6AD5D71FD80CE400394ACA /* Main.storyboard */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		1824E37549322352040B7698 /* Pods-Instasalla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instasalla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instasalla/Pods-Instasalla.release.xcconfig"; sourceTree = "<group>"; };
 		1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
-		1E60FA491FD96C4B00AD486D /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
 		1E6AD5D01FD80CE400394ACA /* Instasalla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instasalla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E6AD5D51FD80CE400394ACA /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -72,10 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				1E7A8E311FE868BF005EBC33 /* Views */,
-				1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */,
 				1E6AD5D51FD80CE400394ACA /* HomeVC.swift */,
 				1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */,
-				1E60FA491FD96C4B00AD486D /* ProductsCell.swift */,
+				1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */,
 				1E73499B1FE41DB40021E96E /* Resourses */,
 				1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */,
 				1E6AD5D71FD80CE400394ACA /* Main.storyboard */,
@@ -245,7 +242,6 @@
 			files = (
 				1E8BA9921FE2C583001B38AB /* UIBarButtonItem+Badge.m in Sources */,
 				1EFE5AAF1FD8493300BE5699 /* tabBarVC.swift in Sources */,
-				1E60FA4A1FD96C4B00AD486D /* ProductsCell.swift in Sources */,
 				1E6AD5D61FD80CE400394ACA /* HomeVC.swift in Sources */,
 				1E6AD5D41FD80CE400394ACA /* AppDelegate.swift in Sources */,
 				1E5C70B21FDD77A2000264DC /* CustomNavBar.swift in Sources */,

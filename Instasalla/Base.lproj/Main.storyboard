@@ -114,24 +114,9 @@
                     <view key="view" contentMode="scaleToFill" id="IPI-JA-0Tg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RPy-d8-boL" userLabel="collectionView" customClass="UICollectionView">
-                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
-                                <color key="backgroundColor" white="0.87993321820000003" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="LDa-qw-zvG" firstAttribute="top" secondItem="RPy-d8-boL" secondAttribute="bottom" id="768-ir-11g"/>
-                            <constraint firstAttribute="trailing" secondItem="RPy-d8-boL" secondAttribute="trailing" id="YKV-2V-P2H"/>
-                            <constraint firstItem="RPy-d8-boL" firstAttribute="leading" secondItem="IPI-JA-0Tg" secondAttribute="leading" id="bdB-7i-R9k"/>
-                            <constraint firstItem="RPy-d8-boL" firstAttribute="top" secondItem="0U5-BB-ZbX" secondAttribute="bottom" id="pKE-kW-vzA"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="gMD-mO-J8J"/>
-                    <connections>
-                        <outlet property="collectionView" destination="RPy-d8-boL" id="iF6-CW-7G9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KPR-sn-8ID" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
