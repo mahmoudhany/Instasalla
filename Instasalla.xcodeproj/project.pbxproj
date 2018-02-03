@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2D34191FEC43FA00A614C6 /* VerticalCategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D34181FEC43FA00A614C6 /* VerticalCategorySection.swift */; };
 		1E5C70B21FDD77A2000264DC /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */; };
+		1E5E86611FED47E500244F24 /* EmbeddedSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E86601FED47E500244F24 /* EmbeddedSectionController.swift */; };
 		1E6AD5D41FD80CE400394ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */; };
 		1E6AD5D61FD80CE400394ACA /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AD5D51FD80CE400394ACA /* HomeVC.swift */; };
 		1E6AD5D91FD80CE400394ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6AD5D71FD80CE400394ACA /* Main.storyboard */; };
 		1E6AD5DB1FD80CE400394ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6AD5DA1FD80CE400394ACA /* Assets.xcassets */; };
 		1E6AD5DE1FD80CE400394ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6AD5DC1FD80CE400394ACA /* LaunchScreen.storyboard */; };
+		1E771E8A2003042000D53BE5 /* wideCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E771E882003042000D53BE5 /* wideCategoryCell.swift */; };
+		1E771E8B2003042000D53BE5 /* wideCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E771E892003042000D53BE5 /* wideCategoryCell.xib */; };
+		1E877E152001AB4300A6C725 /* EmbeddedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E877E142001AB4200A6C725 /* EmbeddedCollectionViewCell.swift */; };
 		1E8BA9921FE2C583001B38AB /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8BA9911FE2C583001B38AB /* UIBarButtonItem+Badge.m */; };
+		1E9620A1201B093700BAB186 /* ProductsPreviewHeaderSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9620A0201B093700BAB186 /* ProductsPreviewHeaderSectionController.swift */; };
+		1E9620A4201B0EE100BAB186 /* ProductsPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9620A2201B0EE100BAB186 /* ProductsPreviewCell.swift */; };
+		1E9620A5201B0EE100BAB186 /* ProductsPreviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E9620A3201B0EE100BAB186 /* ProductsPreviewCell.xib */; };
 		1EFE5AAF1FD8493300BE5699 /* tabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */; };
 		296294D31235BFD2019C7C20 /* Pods_Instasalla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6022731D6514C616EA931731 /* Pods_Instasalla.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1824E37549322352040B7698 /* Pods-Instasalla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instasalla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instasalla/Pods-Instasalla.release.xcconfig"; sourceTree = "<group>"; };
+		1E2D34181FEC43FA00A614C6 /* VerticalCategorySection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalCategorySection.swift; sourceTree = "<group>"; };
 		1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		1E5E86601FED47E500244F24 /* EmbeddedSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedSectionController.swift; sourceTree = "<group>"; };
 		1E6AD5D01FD80CE400394ACA /* Instasalla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instasalla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E6AD5D51FD80CE400394ACA /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -28,9 +38,15 @@
 		1E6AD5DA1FD80CE400394ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E6AD5DD1FD80CE400394ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E6AD5DF1FD80CE400394ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E771E882003042000D53BE5 /* wideCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wideCategoryCell.swift; sourceTree = "<group>"; };
+		1E771E892003042000D53BE5 /* wideCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wideCategoryCell.xib; sourceTree = "<group>"; };
+		1E877E142001AB4200A6C725 /* EmbeddedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedCollectionViewCell.swift; sourceTree = "<group>"; };
 		1E8BA98F1FE2C581001B38AB /* Instasalla-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instasalla-Bridging-Header.h"; sourceTree = "<group>"; };
 		1E8BA9901FE2C583001B38AB /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
 		1E8BA9911FE2C583001B38AB /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		1E9620A0201B093700BAB186 /* ProductsPreviewHeaderSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsPreviewHeaderSectionController.swift; sourceTree = "<group>"; };
+		1E9620A2201B0EE100BAB186 /* ProductsPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsPreviewCell.swift; sourceTree = "<group>"; };
+		1E9620A3201B0EE100BAB186 /* ProductsPreviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsPreviewCell.xib; sourceTree = "<group>"; };
 		1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarVC.swift; sourceTree = "<group>"; };
 		6022731D6514C616EA931731 /* Pods_Instasalla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instasalla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81134AB06E9D8A7DC58133CD /* Pods-Instasalla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instasalla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instasalla/Pods-Instasalla.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +64,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E2D34171FEC40CA00A614C6 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E86601FED47E500244F24 /* EmbeddedSectionController.swift */,
+				1E2D34181FEC43FA00A614C6 /* VerticalCategorySection.swift */,
+				1E9620A0201B093700BAB186 /* ProductsPreviewHeaderSectionController.swift */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		1E5E865F1FED470200244F24 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1E877E142001AB4200A6C725 /* EmbeddedCollectionViewCell.swift */,
+				1E771E882003042000D53BE5 /* wideCategoryCell.swift */,
+				1E771E892003042000D53BE5 /* wideCategoryCell.xib */,
+				1E9620A2201B0EE100BAB186 /* ProductsPreviewCell.swift */,
+				1E9620A3201B0EE100BAB186 /* ProductsPreviewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		1E6AD5C71FD80CE300394ACA = {
 			isa = PBXGroup;
 			children = (
@@ -69,16 +107,17 @@
 		1E6AD5D21FD80CE400394ACA /* Instasalla */ = {
 			isa = PBXGroup;
 			children = (
-				1E7A8E311FE868BF005EBC33 /* Views */,
-				1E6AD5D51FD80CE400394ACA /* HomeVC.swift */,
-				1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */,
-				1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */,
+				1E5E865F1FED470200244F24 /* Cells */,
+				1E2D34171FEC40CA00A614C6 /* Sections */,
+				1E877E182001D32A00A6C725 /* ViewControllers */,
 				1E73499B1FE41DB40021E96E /* Resourses */,
+				1E7A8E311FE868BF005EBC33 /* Views */,
 				1E5C70B11FDD77A2000264DC /* CustomNavBar.swift */,
 				1E6AD5D71FD80CE400394ACA /* Main.storyboard */,
 				1E6AD5DA1FD80CE400394ACA /* Assets.xcassets */,
 				1E6AD5DC1FD80CE400394ACA /* LaunchScreen.storyboard */,
 				1E6AD5DF1FD80CE400394ACA /* Info.plist */,
+				1E6AD5D31FD80CE400394ACA /* AppDelegate.swift */,
 			);
 			path = Instasalla;
 			sourceTree = "<group>";
@@ -96,8 +135,17 @@
 		1E7A8E311FE868BF005EBC33 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1EFE5AAE1FD8493300BE5699 /* tabBarVC.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		1E877E182001D32A00A6C725 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E6AD5D51FD80CE400394ACA /* HomeVC.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		9FDC2DD05D23520D2D8F6214 /* Pods */ = {
@@ -151,7 +199,7 @@
 				TargetAttributes = {
 					1E6AD5CF1FD80CE400394ACA = {
 						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -179,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9620A5201B0EE100BAB186 /* ProductsPreviewCell.xib in Resources */,
+				1E771E8B2003042000D53BE5 /* wideCategoryCell.xib in Resources */,
 				1E6AD5DE1FD80CE400394ACA /* LaunchScreen.storyboard in Resources */,
 				1E6AD5DB1FD80CE400394ACA /* Assets.xcassets in Resources */,
 				1E6AD5D91FD80CE400394ACA /* Main.storyboard in Resources */,
@@ -241,9 +291,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E8BA9921FE2C583001B38AB /* UIBarButtonItem+Badge.m in Sources */,
+				1E877E152001AB4300A6C725 /* EmbeddedCollectionViewCell.swift in Sources */,
+				1E9620A1201B093700BAB186 /* ProductsPreviewHeaderSectionController.swift in Sources */,
 				1EFE5AAF1FD8493300BE5699 /* tabBarVC.swift in Sources */,
 				1E6AD5D61FD80CE400394ACA /* HomeVC.swift in Sources */,
+				1E2D34191FEC43FA00A614C6 /* VerticalCategorySection.swift in Sources */,
+				1E9620A4201B0EE100BAB186 /* ProductsPreviewCell.swift in Sources */,
 				1E6AD5D41FD80CE400394ACA /* AppDelegate.swift in Sources */,
+				1E771E8A2003042000D53BE5 /* wideCategoryCell.swift in Sources */,
+				1E5E86611FED47E500244F24 /* EmbeddedSectionController.swift in Sources */,
 				1E5C70B21FDD77A2000264DC /* CustomNavBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

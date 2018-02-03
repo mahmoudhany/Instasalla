@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1114" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductsPreviewCell" id="gTV-IL-0wX" customClass="ProductsPreviewCell" customModule="Instasalla" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="298" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="298" height="180"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84A-tw-D3d">
+                        <rect key="frame" x="0.0" y="0.0" width="298" height="180"/>
+                        <color key="backgroundColor" red="0.25484923162832457" green="0.62501982868020312" blue="0.34294706086325827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </scrollView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="84A-tw-D3d" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ebO-gv-ORI"/>
+                <constraint firstAttribute="trailing" secondItem="84A-tw-D3d" secondAttribute="trailing" id="lA4-4U-lE1"/>
+                <constraint firstItem="84A-tw-D3d" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lH2-rh-i5Q"/>
+                <constraint firstAttribute="bottom" secondItem="84A-tw-D3d" secondAttribute="bottom" id="nCX-cx-Upk"/>
+            </constraints>
+            <size key="customSize" width="298" height="175"/>
+            <connections>
+                <outlet property="productScrollView" destination="84A-tw-D3d" id="voR-Da-qhL"/>
+            </connections>
+            <point key="canvasLocation" x="64" y="41"/>
+        </collectionViewCell>
+    </objects>
+</document>
